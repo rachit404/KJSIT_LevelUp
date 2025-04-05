@@ -24,7 +24,7 @@ const Home = () => {
             tailored to guide you in your legal career.
           </p>
           <Link
-            to="/roadmap"
+            to="/law-roadmap"
             className="inline-flex items-center bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors"
           >
             Explore Roadmap <ArrowRight className="ml-2" size={18} />

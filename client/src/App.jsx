@@ -12,6 +12,7 @@ import LegalClinicMap from "./components/AI-Features/AI_UI/LegalClinicMap.jsx";
 import SimilarCases from "./components/AI-Features/AI_UI/SimilarCases.jsx";
 import LawyerSearch from "./components/AI-Features/AI_UI/LawyerSearch.jsx";
 import LegalResearch from "./components/AI-Features/AI_UI/LegalResearch.jsx";
+import Chatbot from "./components/Chatbot.jsx";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/legal-clinic-map" element={<LegalClinicMap />} />
           <Route path="/similar-cases" element={<SimilarCases />} />
           <Route path="/lawyer-search" element={<LawyerSearch />} />
+          <Route path="/chatbot" element={<Chatbot />} />
         </Routes>
       </div>
     </Router>

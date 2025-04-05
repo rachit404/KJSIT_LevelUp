@@ -19,6 +19,7 @@ export default function Navbar() {
     { path: "/legal-clinic-map", label: "Legal Clinic Map" },
     { path: "/similar-cases", label: "Similar Cases" },
     { path: "/lawyer-search", label: "Lawyer Search" },
+    { path: "/chatbot", label: "ChatBot" },
     { path: "/about", label: "About" },
     { path: "/contact", label: "Contact" },
   ];
